@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(175, 232, 175);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 80%;
+  height: 80%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tbox {
+  width: 100%;
+  height: 80px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20%;
+}
+.elem {
+  /* background-color: red; */
+  width: 100px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+.check-box {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 30px;
+  display: flex;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+  font-size: larger;
+}
+/* ----------------------------------------------------------------------- */
+
+.bbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(103% - 100px);
+    padding: 20px;
+    gap: 10px;
+    /* background-color: black; */
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    color:white;
+    justify-content: center;
+    background-color:red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.bubble:hover{
+  background-color: brown;
+  cursor: pointer;
+}
